@@ -1,9 +1,11 @@
 # ESP32devreciever
 An addon for my gamecube portable to enable wireless communications. The reciever will work for wireless gamecube controller(s) as well as wireless code upload for macros and inputs from a computer.
 
-For the receiver, data integrity is vital for a solid wireless connection. I'd also like to be able to store macro files on the receiver, which should be activated by a hotkey or button combination. Connection should be seamless and integrated. Thankfully, no voltage regulators or power supplies are needed; however, to make flashing easier, I will incorporate a low level voltage regulator for the USB-C spec. On the portable itself, VIN will be supplied by the RVL-PMS-2, which has 3v3 out. ![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUxNzgsInB1ciI6ImJsb2JfaWQifX0=--5f2e081f5eb896d7b6cfdf2ae53169af11307c2d/image.png)
+For the receiver, data integrity is vital for a solid wireless connection. I'd also like to be able to store macro files on the receiver, which should be activated by a hotkey or button combination. Connection should be seamless and integrated. Thankfully, no voltage regulators or power supplies are needed; however, to make flashing easier, I will incorporate a low level voltage regulator for the USB-C spec. On the portable itself, VIN will be supplied by the RVL-PMS-2, which has 3v3 out.<img width="1675" height="1055" alt="image" src="https://github.com/user-attachments/assets/626c0b4a-bf86-44db-b2db-581cd0bda3a4" />
 
-This should take little to no space. Minimizing outputs(only 17IO and 1 PWM in) should only require a maximum of 20 pins, 10 on each side of the motherboard(including 1 for 3.3v and 1 for ground. No debug to minimize space requirements. I need to satisfy the IO requirements for most of these pins. ![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTUxODAsInB1ciI6ImJsb2JfaWQifX0=--2266cf7e60c4a35060da9dc0a1a2a842ca5c00fb/image.png)
+
+This should take little to no space. Minimizing outputs(only 17IO and 1 PWM in) should only require a maximum of 20 pins, 10 on each side of the motherboard(including 1 for 3.3v and 1 for ground. No debug to minimize space requirements. I need to satisfy the IO requirements for most of these pins. <img width="790" height="799" alt="image-1" src="https://github.com/user-attachments/assets/60966495-632b-403b-b86f-5c25ec408aeb" />
+
 
 Utilizing the ESP32-WROOM-S3-N16 should be perfect; high flash memory, integrated SOC, and all the functionality of an ESP32. With that, I'll begin the schematic.
 
