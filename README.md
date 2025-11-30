@@ -11,3 +11,10 @@ Utilizing the ESP32-WROOM-S3-N16 should be perfect; high flash memory, integrate
 
 Finished developing the schematic, most components were brought over from the transmitter made earlier. Working from a new computer so I had to re download and modify footprint libraries. Smaller voltage regulator, limited my GPIO output pins severely so I could fit everything with just 20 jumper pins. PCB routing is going to be a pin, since I'll be using a 2layer board this time and need a much more compact PCB.<img width="1856" height="1252" alt="image" src="https://github.com/user-attachments/assets/8264c4a7-9fd3-4d94-92f7-5ffedbdba897" />
 
+For some reason, this PCB layout and routing was infinitely more difficult than my last. I can attribute most of the difficulties to the dramatically smaller size and the lack of 4 layers, with me settling for just two. overall, I'm really happy with the way it turned out and I can't wait to implement it on my actual console!
+
+<img width="882" height="695" alt="image" src="https://github.com/user-attachments/assets/da93efe0-6d5d-4f3f-a463-d75a8e22c91c" />
+
+<img width="733" height="473" alt="image" src="https://github.com/user-attachments/assets/95996574-539d-4f93-b249-d8098cad69e1" />
+
+<img width="649" height="458" alt="image" src="https://github.com/user-attachments/assets/fd5a0094-a009-4e74-8a7c-18ba53bbf586" />
